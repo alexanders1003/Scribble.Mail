@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageVersion>1.2.0</PackageVersion>
+        <AssemblyName>Scribble.Mail.Contracts</AssemblyName>
+        <RootNamespace>Scribble.Mail.Contracts</RootNamespace>
+        <PackageId>Scribble.Mail.Contracts</PackageId>
+        <Authors>Scribble.Mail.Contracts</Authors>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MimeKit" Version="3.4.3" />
+    </ItemGroup>
+
+</Project>
